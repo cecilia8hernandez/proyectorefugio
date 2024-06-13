@@ -1,0 +1,33 @@
+
+input:invalid:required {
+    background-color:rgb(92, 235, 104);
+}
+
+
+.btn-secondary {
+    color: #141111;
+    background-color: #0389ff;
+    border-color: #1e8beb;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 35%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    margin-left: auto;
+}
+
+
+body {
+    margin: 0px;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(33, 37, 41);
+    background-image: linear-gradient(to right, rgb(236, 127, 231), rgb(240, 122, 240));
+
+
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+

@@ -1,0 +1,31 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 20%;
+    padding-right: var(--bs-gutter-x, .75rem);
+   
+    margin-left: auto;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 50%;
+    max-width: 50%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+body {
+    margin: 0px;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(33, 37, 41);
+    background-image: linear-gradient(to right, rgb(236, 127, 231), rgb(240, 122, 240));
+
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+input:invalid:required {
+    background-color:rgb(92, 235, 104);
+}
